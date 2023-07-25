@@ -8,11 +8,11 @@ This is the documentation for the Crawler API, a Node.js application that perfor
 
 The Crawler API follows a simple and straightforward workflow:
 
-- 1. The user makes a POST request to the /query/:cpfNumber endpoint, providing a CPF number as input.
-- 2. The API uses Puppeteer to perform web scraping on a specific website associated with the provided CPF number.
+- 1 . The user makes a POST request to the /query/:cpfNumber endpoint, providing a CPF number as input.
+- 2 . The API uses Puppeteer to perform web scraping on a specific website associated with the provided CPF number.
 - 3 .The scraped data is stored in Elasticsearch for future analysis and retrieval.
-- 4. Simultaneously, the API publishes the crawled data to a RabbitMQ queue using the publisher.js module.
-- 5. Users can retrieve the HTML content of the page associated with the given CPF number from the API's response.
+- 4 . Simultaneously, the API publishes the crawled data to a RabbitMQ queue using the publisher.js module.
+- 5 . Users can retrieve the HTML content of the page associated with the given CPF number from the API's response.
 
 ![Workflow and Diagram](https://raw.githubusercontent.com/maxSalvado/node_crawlerthon_api/main/CrawlerThon.png)
 
@@ -36,7 +36,7 @@ Before running the API, make sure you have the following installed:
 
 ```bash
 git clone https://github.com/maxSalvado/node_crawlerthon_api.git
-cd crawler-api
+cd node_crawlerthon_api
 ```
 
 2. Build the Docker image and run the container:
@@ -172,7 +172,7 @@ Before running the API, make sure you have the following installed:
 
 ```bash
 git clone https://github.com/maxSalvado/node_crawlerthon_webapp.git
-cd your-react-web-app-repo
+cd node_crawlerthon_webapp
 npm install
 ```
 
