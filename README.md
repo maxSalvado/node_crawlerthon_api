@@ -14,7 +14,7 @@ The Crawler API follows a simple and straightforward workflow:
 - 4. Simultaneously, the API publishes the crawled data to a RabbitMQ queue using the publisher.js module.
 - 5. Users can retrieve the HTML content of the page associated with the given CPF number from the API's response.
 
-![Example Image]([https://cdn-cashy-static-assets.lucidchart.com/marketing/chart/homepage/flowchart-dagram.png](https://raw.githubusercontent.com/maxSalvado/node_crawlerthon_api/main/CrawlerThon.png))
+![Workflow and Diagram](https://raw.githubusercontent.com/maxSalvado/node_crawlerthon_api/main/CrawlerThon.png)
 
 To get a more detailed visual representation of the app's workflow, you can view the diagram on LucidChart on the following link. The diagram illustrates the step-by-step process that occurs when a user interacts with the Crawler API, from the initial request to the final data storage and publication steps.
 
