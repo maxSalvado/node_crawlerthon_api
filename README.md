@@ -14,7 +14,7 @@ The Crawler API follows a simple and straightforward workflow:
 - 4. Simultaneously, the API publishes the crawled data to a RabbitMQ queue using the publisher.js module.
 - 5. Users can retrieve the HTML content of the page associated with the given CPF number from the API's response.
 
-![Example Image](https://cdn-cashy-static-assets.lucidchart.com/marketing/chart/homepage/flowchart-dagram.png)
+![Example Image]([https://cdn-cashy-static-assets.lucidchart.com/marketing/chart/homepage/flowchart-dagram.png](https://raw.githubusercontent.com/maxSalvado/node_crawlerthon_api/main/CrawlerThon.png))
 
 To get a more detailed visual representation of the app's workflow, you can view the diagram on LucidChart on the following link. The diagram illustrates the step-by-step process that occurs when a user interacts with the Crawler API, from the initial request to the final data storage and publication steps.
 
@@ -154,7 +154,7 @@ With Jest integrated into the Crawler API project, writing and running tests bec
 
 ## Overview
 
-The front-end of this project is built using React, a popular JavaScript library for building user interfaces. The React web app is available in a separate Git repository, which you can access at link-to-your-git-repo.
+The front-end of this project is built using React, a popular JavaScript library for building user interfaces. The React web app is available in a separate Git repository, which you can access at https://github.com/maxSalvado/node_crawlerthon_webapp/tree/main.
 
 ## Getting Started
 
@@ -171,7 +171,7 @@ Before running the API, make sure you have the following installed:
 1. Clone the project repository:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/maxSalvado/node_crawlerthon_webapp.git
 cd your-react-web-app-repo
 npm install
 ```
