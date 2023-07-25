@@ -35,7 +35,7 @@ Before running the API, make sure you have the following installed:
 1. Clone the project repository:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/maxSalvado/node_crawlerthon_api.git
 cd crawler-api
 ```
 
